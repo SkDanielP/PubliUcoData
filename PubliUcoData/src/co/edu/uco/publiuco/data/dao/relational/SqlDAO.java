@@ -20,7 +20,7 @@ public abstract class SqlDAO<E> {
 
 	private final void setConnection(final Connection connection) {
 		if(!UtilSql.connectionIsOpen(connection)) {
-			var userMessage = "Se ha presentado un error tratando de llebar a cabo la operacion deseada por favor intente de nuevo y si el problema persiste contecte al administrador del sistema";
+			var userMessage = "Se ha presentado un error tratando de llevar a cabo la operacion deseada por favor intente de nuevo y si el problema persiste contecte al administrador del sistema";
 			var technicalMessage = "No se ha podido crear el SqlDAO debido a que la conexion no esta abierta";
 			
 			throw PubliucoDataException.create(technicalMessage, userMessage);
