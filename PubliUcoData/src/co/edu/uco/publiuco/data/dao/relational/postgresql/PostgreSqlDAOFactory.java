@@ -223,4 +223,10 @@ public class PostgreSqlDAOFactory extends DAOFactory {
 		return null;
 	}
 
+	@Override
+	public PublicacionDAO getPublicacionDAO() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }

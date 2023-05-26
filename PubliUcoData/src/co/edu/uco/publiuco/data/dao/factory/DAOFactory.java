@@ -71,6 +71,8 @@ public abstract class DAOFactory {
 	
 	public abstract CalificacionDAO getCalificacionDAO();
 	
+	public abstract PublicacionDAO getPublicacionDAO();
+	
 	public abstract CategoriaDAO getCategoriaDAO();
 	
 	public abstract EstadoAdministradorCategoriaDAO getAdministradorCategoriaDAO();
